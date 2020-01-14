@@ -3,28 +3,15 @@
     <v-row v-if="currentComponent==''" style="text-align:center;">
       <v-dialog persistent  v-model="dialog" max-width="500px">
         <v-card>
-          <v-card-title class="headline">Choose Type Of Interactive Fiction</v-card-title>
 
           <v-card-text>
             <v-container>
               <v-row>
                 <v-col>
                   <v-btn
-                    @click="currentComponent = 'appImageCyoa'"
+                    @click="currentComponent = 'appTreeCyoa'"
                     style="color:black"
-                  >Open Image-cyoa Creator</v-btn>
-                </v-col>
-                <v-col>
-                  <v-btn disabled
-                    @click="currentComponent = 'appGroup'"
-                    style="color:black"
-                  >Open Standard-cyoa Creator</v-btn>
-                </v-col>
-                <v-col>
-                  <v-btn disabled
-                    @click="currentComponent = 'appGroup'"
-                    style="color:black"
-                  >Open Map-cyoa Creator</v-btn>
+                  >Enter The Site</v-btn>
                 </v-col>
               </v-row>
             </v-container>
@@ -40,18 +27,16 @@
 </template>
 
 <script>
-import ImageCyoa from "./components/ImageCyoa.vue";
 import TreeCyoa from "./components/TreeCyoa.vue";
 
 export default {
   data: function() {
     return {
-      currentComponent: "",
+      currentComponent: "appTreeCyoa",
       dialog: true
     };
   },
   components: {
-    appImageCyoa: ImageCyoa,
     appTreeCyoa: TreeCyoa
   },
   computed: {},
