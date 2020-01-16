@@ -134,15 +134,26 @@ export default {
         showText: false,
         title: "Project Kick-off",
         text:
-          "The project kick-off was today, and we were given information about the plan forwards, I've worked on and finished the Project outline, then I made this repository and placed it on Render. Writing the outline gave me a better idea of what I want to achieve while developing the project. I also got confirmation that I could write the documentation in English and that I can do the project solo.<br><br>Tomorrow I will continue on the Website and begin working on the project description.",
+          "The project kick-off was today, and we were given information about the plan forwards, I've worked " + 
+          "on and finished the Project outline, then I made this repository and placed it on Render. Writing" +
+          " the outline gave me a better idea of what I want to achieve while developing the project. I also " + 
+          "got confirmation that I could write the documentation in English and that I can do the project solo." +
+          " <br><br>Tomorrow I will continue on the Website and begin working on the project description.",
         date: "14/01-2020"
+      },
+      {
+        showText: false,
+        title: "Project Outline Delivered",
+        text:
+          "",
+        date: "16/01-2020"
       }
     ],
     files: [
       {
         showText: false,
         title: "Project Outline",
-        text: "",
+        text: "<a href='../assets/projectoutline.pdf'>Project Outline</a>",
         date: ""
       },
       {
