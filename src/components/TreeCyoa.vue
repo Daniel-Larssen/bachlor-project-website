@@ -88,6 +88,7 @@
                 <div v-show="input.showText">
                   <v-divider></v-divider>
 
+                  <a></a>
                   <v-card-text v-html="input.text"></v-card-text>
                 </div>
               </v-expand-transition>
@@ -145,33 +146,41 @@ export default {
         showText: false,
         title: "Project Outline Delivered",
         text:
-          "",
+          "Project outline was delivered today, not much more to say about it.",
         date: "16/01-2020"
-      }
+      },
+      {
+        showText: false,
+        title: "Project Description Delivered",
+        text:
+          "The project description has been delivered, both it and the outline can be found in 'Files'.",
+        date: "23/01-2020"
+      },
+      {
+        showText: false,
+        title: "Project Description Delivered",
+        text:
+          "Added the first presentation to 'Files', and the first phase is more or less over, will create the viewer and post the alpha near the end of the week.",
+        date: "03/02-2020"
+      },
     ],
     files: [
       {
         showText: false,
         title: "Project Outline",
-        text: "<a href='../assets/projectoutline.pdf'>Project Outline</a>",
+        text: '<a href="https://1drv.ms/w/s!AvO53xzZqujui3_r_mV8n76vxZPL?e=pFlZ3j">Project Outline</a>',
         date: ""
       },
       {
         showText: false,
         title: "Project Description",
-        text: "",
-        date: ""
-      },
-      {
-        showText: false,
-        title: "Deal With Contractor",
-        text: "",
+        text: '<a href="https://1drv.ms/w/s!AvO53xzZqujujALq3SGa21wesz-g?e=Io3CCl">Project Description</a>',
         date: ""
       },
       {
         showText: false,
         title: "First Presentation",
-        text: "",
+        text: '<a href="https://docs.google.com/presentation/d/1UBaFMmFQMg99WruYlMTFOasMB8BXKHWpmLeeswgnS9M/edit?usp=sharing">First Presentation</a>',
         date: ""
       },
       {
