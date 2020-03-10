@@ -3,6 +3,12 @@ import App from './App.vue'
 import store from './store'
 import vuetify from './plugins/vuetify';
 
+import '@mdi/font/css/materialdesignicons.css' // Ensure you are using css-loader
+Vue.use(vuetify, {
+  iconfont: 'mdi'
+})
+
+
 Vue.config.productionTip = false
 
 new Vue({

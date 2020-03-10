@@ -158,9 +158,16 @@ export default {
       },
       {
         showText: false,
-        title: "Project Description Delivered",
+        title: "Project Milestone One Presentation",
         text:
           "Added the first presentation to 'Files', and the first phase is more or less over, will create the viewer and post the alpha near the end of the week.",
+        date: "03/02-2020"
+      },
+      {
+        showText: false,
+        title: "Project Milestone Two Presentation",
+        text:
+          "Added the second presentation to 'Files', and the first phase is more or less over, will work on updating the website to make it more user friendly and post the Beta soon.",
         date: "03/02-2020"
       },
     ],
@@ -180,13 +187,13 @@ export default {
       {
         showText: false,
         title: "First Presentation",
-        text: '<a href="https://docs.google.com/presentation/d/1UBaFMmFQMg99WruYlMTFOasMB8BXKHWpmLeeswgnS9M/edit?usp=sharing">First Presentation</a>',
+        text: '<a href="https://docs.google.com/presentation/d/1Nv5AHlIQu1A9WgvnBtMERYS89gc985TU_sMofWY-kdM/edit?usp=sharing">First Presentation</a>',
         date: ""
       },
       {
         showText: false,
         title: "Second Presentation",
-        text: "",
+        text: '<a href="https://docs.google.com/presentation/d/1UBaFMmFQMg99WruYlMTFOasMB8BXKHWpmLeeswgnS9M/edit?usp=sharing">Second Presentation</a>',
         date: ""
       },
       {
