@@ -116,7 +116,7 @@
     </v-content>
 
     <v-footer app>
-      <span style="font-size:10px;" class="pa-0">Last updated 14.01.2019</span>
+      <span style="font-size:10px;" class="pa-0">Last updated 25.05.2020</span>
     </v-footer>
   </v-app>
 </template>
@@ -170,6 +170,20 @@ export default {
           "Added the second presentation to 'Files', and the first phase is more or less over, will work on updating the website to make it more user friendly and post the Beta soon.",
         date: "03/02-2020"
       },
+      {
+        showText: false,
+        title: "Project Milestone Three Presentation",
+        text:
+          "Added the third presentation to 'Files'.",
+        date: "29/04-2020"
+      },
+      {
+        showText: false,
+        title: "Project Report is delivered",
+        text:
+          "Added it to 'Files'.",
+        date: "25/05-2020"
+      },
     ],
     files: [
       {
@@ -199,13 +213,13 @@ export default {
       {
         showText: false,
         title: "Third Presentation",
-        text: "",
+        text: '<a href="https://docs.google.com/presentation/d/1z4xxR_-zzsA9pSvkwjp1-3IxBTRe082IP0OAkFfOHJI/edit?usp=sharing">Third Presentation</a>',
         date: ""
       },
       {
         showText: false,
         title: "Full Project Report",
-        text: "",
+        text: '<a href="https://1drv.ms/w/s!AvO53xzZqujujQP2MDyYuIh5t6No?e=vUrE53">Full Project Report<a>',
         date: ""
       }
     ]
