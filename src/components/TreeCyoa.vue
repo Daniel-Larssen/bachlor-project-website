@@ -179,6 +179,13 @@ export default {
       },
       {
         showText: false,
+        title: "Viewer and Desktop Application",
+        text:
+          "Added it to files if you want to check them out, the rar-file holds the unpacked version, the website build, the viewer, and the exe-version.",
+        date: "25/05-2020"
+      },
+      {
+        showText: false,
         title: "Project Report is delivered",
         text:
           "Added it to 'Files'.",
@@ -214,6 +221,12 @@ export default {
         showText: false,
         title: "Third Presentation",
         text: '<a href="https://docs.google.com/presentation/d/1z4xxR_-zzsA9pSvkwjp1-3IxBTRe082IP0OAkFfOHJI/edit?usp=sharing">Third Presentation</a>',
+        date: ""
+      },
+      {
+        showText: false,
+        title: "Desktop Application and Viewer",
+        text: '<a href="https://mega.nz/file/ii5BiA6B#TC6FdZd_TjfFw8Tj4vhEqlwjZJo5i1PPI_A99D89sKQ">Desktop Application and Viewert<a>',
         date: ""
       },
       {
